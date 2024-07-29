@@ -19,5 +19,15 @@ export function getSizeName(value: string) {
       return "X-Large"
     case "one-size":
       return "One Size"
+    case "9":
+      return "9"
+    case "10":
+      return "10"
+    case "11":
+      return "11"
+    case "12":
+      return "12"
+    case "13":
+      return "13"
   }
 }
