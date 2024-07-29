@@ -38,7 +38,7 @@ export const inventory: InventoryProduct[] = [
     sizes: ["one-size"],
     categories: ["bags"],
     colors: ["brown"],
-    currency: "GBP",
+    currency: "USD",
   },
   {
     id: "8d1a33a5-5650-4bd7-bb70-ba4670090700",

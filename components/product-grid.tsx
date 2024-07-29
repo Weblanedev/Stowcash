@@ -35,7 +35,7 @@ export function ProductGrid({ products }: Props) {
           href={`/products/${product.slug}`}
           className="group text-sm"
         >
-          <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg border-2 border-gray-200 bg-gray-100 group-hover:opacity-75 dark:border-gray-800">
+          <div className="relative w-[250px] h-[250px] overflow-hidden rounded-lg border-2 border-gray-200 bg-gray-100 group-hover:opacity-75 dark:border-gray-800">
             <Image
               placeholder="blur"
               blurDataURL={`data:image/svg+xml;base64,${toBase64(
@@ -43,9 +43,8 @@ export function ProductGrid({ products }: Props) {
               )}`}
               src={urlForImage(product.images[0]).url()}
               alt={product.name}
-              width={225}
-              height={280}
-              className="h-full w-full object-cover object-center"
+              fill
+              className="h-fit w-full object-contain"
             />
           </div>
           <h3 className="mt-4 font-medium">{product.name}</h3>
