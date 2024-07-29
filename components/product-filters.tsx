@@ -21,6 +21,9 @@ const filters = [
       { value: "scarves", label: "Scarves" },
       { value: "wallets", label: "Wallets" },
       { value: "shoes", label: "Shoes" },
+      { value: "home", label: "Homes" },
+      { value: "kitchen", label: "Kitchen" },
+      { value: "bedroom", label: "Bedroom" },
     ],
   },
   {
