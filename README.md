@@ -9,8 +9,6 @@
 - Login to Sanity Cms to add event more products
 - Full responsive & intuitive UI built with Tailwind
 
-#### [Try It Out @ Live Link](https://jam-stack-ecommerce-app.vercel.app/) ✨
-
 #### Alternate Theme @
 
 ### 💻 Super Simple Setup 💾
