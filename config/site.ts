@@ -1,9 +1,9 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Geekstuff ",
+  name: "Stowcash",
   description:
-    "Geekstuff is a name that conveys a sense of expertise and knowledge in the realm of lifestyle, home, and travel goods.",
+    "Stowcash is a brand name that conveys a sense of expertise and knowledge in the realm of lifestyle, home, and travel goods.",
   footer: [
     { name: "Home", href: "/" },
     { name: "About", href: "#" },
