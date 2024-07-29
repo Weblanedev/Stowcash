@@ -16,7 +16,6 @@ const filters = [
     name: "Category",
     options: [
       { value: "bags", label: "Bags" },
-      { value: "belts", label: "Belts" },
       { value: "gloves", label: "Gloves" },
       { value: "scarves", label: "Scarves" },
       { value: "wallets", label: "Wallets" },
